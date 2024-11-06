@@ -1,0 +1,42 @@
+.order-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.order-column {
+  margin: 0 10px;
+}
+
+.order-item {
+  margin: 10px 0;
+}
+
+.selected {
+  background-color: lightgreen;
+}
+
+.center {
+  text-align: center;
+}
+
+.vehicles {
+  display: flex;
+  justify-content: space-between;
+}
+
+.select-vehicle-button {
+  margin-right: 10px;
+}
+
+.select-vehicle-button.active {
+  background-color: lightgreen;
+}
+
+button:hover {
+  background-color: blue;
+  color: white;
+}
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
